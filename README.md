@@ -4,6 +4,13 @@ Use this library in Arduino IDE with ESP32, ESP8266 (NodeMCU 1.0), Teensy 4.1,
 SAM, SAMD, MegaAVR, and classic AVR boards. The firmware talks HTTP to a Box IO
 server on **port 5923**.
 
+## Server setup
+
+Install the Box IO server from [box-io.com](https://www.box-io.com/docker.php).
+That page covers Ubuntu, CentOS, Red Hat, Raspberry Pi, and BlueOnyx. After the
+server is running, open its dashboard, create an account, and copy the device
+key into the sketch. Boards use the server's address and port **5923**.
+
 ## Install
 
 When BoxIO is listed in Library Manager, open **Sketch → Include Library → Manage Libraries…** and search for **BoxIO**.
